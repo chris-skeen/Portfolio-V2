@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <nav>
+        <a class="nav-words" href="{% url "home" %}">HOME</a>
+        <a class="nav-words" href="{% url "projects" %}">PROJECTS</a>
+        <a class="nav-words" href="{% url "contacts" %}">CONTACT</a>
+        <div id="indicator"></div>
+      </nav>
+      
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
