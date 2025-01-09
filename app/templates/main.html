@@ -4,7 +4,7 @@
 <div class="container">
 
     <div class="bird-container bird-container-one">
-        <div class="bird bird-one"></div>
+      <div class="bird bird-one"></div>
     </div>
     <div class="bird-container bird-container-two">
         <div class="bird bird-two"></div>
@@ -38,5 +38,59 @@
         </div>
     </div>
 </div>
-    <img class="me" src="{% static "images/robbin.jpg" %}"/>
+
+<div class="center">
+  <div class="down"></div>
+</div>
+
+<div class="box">
+  <div class="content">
+    <img src={% static "images/robbin.jpg" %}>
+    <h2>Robbin Skeen<br><span>Software Developer</span></h2>
+    <a href="">Resume</a>
+  </div>
+</div>
+
+
+    <h2 class="skills-header">Skills</h2>
+    <div class="skill-box-cont-cont">
+        <div class="skill-box-cont">
+          <div class="skill-box">
+            <a target='_blank' href="https://www.python.org/"><img class="all-logo" src="{% static "images/python.png"%}"></a>
+            <h2 class="logo-names">Python</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://git-scm.com/"><img class="all-logo" src="{% static "images/git.png"%}"></a>
+            <h2 class="logo-names">Git</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://html.com/"><img class="all-logo" src="{% static "images/html.png"%}"></a>
+            <h2 class="logo-names">HTML</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://www.djangoproject.com/"><img class="all-logo" src="{% static "images/django.png"%}"></a>
+            <h2 class="logo-names">Django</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://www.java.com/en/"><img class="all-logo" src="{% static "images/java.png" %}"></a>
+            <h2 class="logo-names">Java</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://www.javascript.com/"><img class="all-logo" src="{% static "images/javascript.png" %}"></a>
+            <h2 class="logo-names">Javascript</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://www.mysql.com/"><img class="all-logo" src="{% static  "images/sql.png"%}"></a>
+            <h2 class="logo-names">SQL</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://spring.io/"><img class="all-logo" src="{% static "images/spring.png" %}"></a>
+            <h2 class="logo-names">Spring</h2>
+          </div>
+          <div class="skill-box">
+            <a target='_blank' href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img class="all-logo" src="{% static "images/css.png"%}"></a>
+            <h2 class="logo-names">CSS</h2>
+          </div>
+        </div>
+      </div>
 {% endblock content %}

@@ -6,38 +6,37 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward" />
 {% comment %} Link SwiperJS CSS {% endcomment %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-{% comment %} one {% endcomment %}
+
 <div class="cont swiper">
     <div class="card-wrapper">
         <ul class="card-list swiper-wrapper">
             <li class="card-item swiper-slide">
                 <a href="#" class="card-link">
-                    <img class="card-image" alt="image" src="{% static "images/wiz-102-logo.png" %}"/>
+                    <img class="card-image" alt="image" src="{% static "images/urbex.png" %}"/>
+                    <p class="badge">Urbex</p>
+                    <h2 class="card-title">Urbex is a travel website that you can use to find abandoned places near you! You can also post and look at an interactive map.</h2>
+                    <button class="card-button
+                    material-symbols-rounded">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a target="_blank" href="https://github.com/chris-skeen/Wizard-102" class="card-link">
+                    <img class="card-image" alt="image" src="{% static "images/wiz-102.png" %}"/>
                     <p class="badge">Wizard 102</p>
-                    <h2 class="card-title"> Wizard 102 is blah blah blah </h2>
+                    <h2 class="card-title">Wizard 102 is a python project where you fight amongst your friends! You can choose from four different elemental wizards to figure out who the best sorcer is!</h2>
                     <button class="card-button
                     material-symbols-rounded">arrow_forward</button>
                 </a>
             </li>
             <li class="card-item swiper-slide">
-                <a href="#" class="card-link">
-                    <img class="card-image" alt="image" src="{% static "images/wiz-102-logo.png" %}"/>
-                    <p class="badge">poo</p>
-                    <h2 class="card-title"> Wizard 102 is blah blah blah </h2>
+                <a href="https://github.com/chris-skeen/Word-Whiz" target="_blank" class="card-link">
+                    <img class="card-image" alt="image" src="{% static "images/word-whiz.png" %}"/>
+                    <p class="badge">Whord Whiz</p>
+                    <h2 class="card-title"> Word Whiz is a word guessing game where you get a defintion and have to guess the correct word! It is a javascript project that uses 2 apis to work.</h2>
                     <button class="card-button
                     material-symbols-rounded">arrow_forward</button>
                 </a>
             </li>
-            <li class="card-item swiper-slide">
-                <a href="#" class="card-link">
-                    <img class="card-image" alt="image" src="{% static "images/wiz-102-logo.png" %}"/>
-                    <p class="badge">pee</p>
-                    <h2 class="card-title"> Wizard 102 is blah blah blah </h2>
-                    <button class="card-button
-                    material-symbols-rounded">arrow_forward</button>
-                </a>
-            </li>
-            
         </ul>
         <div class="swiper-pagination"></div>
         <div class="siper-slide-button swiper-button-prev"></div>
