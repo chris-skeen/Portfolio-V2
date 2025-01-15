@@ -4,6 +4,7 @@ black==24.4.2
 click==8.1.7
 colorama==0.4.6
 Django==5.1.2
+django-cors-headers==4.6.0
 django-crispy-forms==2.3
 django-heroku==0.3.1
 django-widget-tweaks==1.5.0
@@ -25,3 +26,4 @@ sqlparse==0.5.1
 typing_extensions==4.12.2
 tzdata==2024.2
 dj-database-url==2.3.0
+whitenoise==6.8.2
