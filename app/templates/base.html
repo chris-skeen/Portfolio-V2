@@ -13,11 +13,14 @@
     <nav>
         <a class="nav-words" href="{% url "home" %}">HOME</a>
         <a class="nav-words" href="{% url "projects" %}">PROJECTS</a>
-        <a class="nav-words" href="{% url "contacts" %}">CONTACT</a>
+        <a class="nav-words" href="{% url "about" %}">ABOUT</a>
         <div id="indicator"></div>
       </nav>
       
     {% block content %}
+    {% comment %} this is where new content stuff goes. {% endcomment %}
     {% endblock content %}
 </body>
+
+
 </html>

@@ -7,7 +7,8 @@
 body {
     background-color: #262c34;
     height: 100vh;
-    width: 100vw
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /* NAV BAR */
@@ -343,8 +344,8 @@ img {
 
 .center {
   position: absolute;
-  top: 80%;
-  left: 35%;
+  top: 90%;
+  left: 50%;
   transform: translate(-50%, -50%)
 }
 
@@ -397,4 +398,182 @@ img {
     transform: translate(-50%, 100px);
     opacity: 0;
   }
+}
+
+.get-in-touch {
+  font-size: 30pt;
+  color: rgb(218, 46, 80);
+  text-align: center;
+}
+
+.contact-images-hold {
+  left: 25%;
+  top: -15%;
+  position: relative;
+}
+
+.images-contact {
+  width: 5%;
+  height: 10%;
+}
+
+.footer {
+  background-color: #383f48;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 5%;
+  display: block;
+  flex-direction: column;
+}
+
+.email-link {
+  color: rgb(218, 46, 80);
+}
+
+.email-link:link {
+  color: rgb(218, 46, 80);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: rgb(218, 46, 80);
+  text-decoration: underline;
+}
+
+.email-link:visited {
+  color: rgb(218, 46, 80);
+  text-decoration: underline;
+}
+
+
+
+.wrapper {
+  padding-top: 100px;
+  width: 25%;
+  height: 60%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-element {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  display: block;
+  height: 98%;
+  width: 98%;
+  margin: auto;
+  align-self: center;
+  background: #fff;
+  z-index: 1;
+}
+
+.border {
+  position: absolute;
+  display: block;
+  top: -50%;
+  left: -50%;
+  z-index: -9;
+  display: block;
+  height: 200%;
+  width: 200%;
+  transform: rotate(-45deg);
+  overflow: hidden;
+  background: linear-gradient(to right, black 20%, black 40%, rgb(218, 46, 80) 50%, rgb(218, 46, 80) 55%, black 70%, black 100%);
+  background-size: 200% auto;
+  
+  animation: shine 3s linear infinite;
+}
+
+.more-ab-me {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 35pt;
+  color:rgb(218, 46, 80)
+}
+
+.summary-of-me {
+  margin-top: 3%;
+  text-align: center;
+  color: white;
+  font-size: 15pt;
+}
+
+/*Begin shimmer code*/
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+
+@media only screen and (max-width: 600px) {
+
+  .wrapper {
+    width: 60%;
+    height: 50%;
+  }
+
+  .box {
+    margin: -180% 0% 0% 10%;
+    width: 300px;
+    height: 300px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .intro {
+    width: 100%;
+    margin-top:80%;
+  }
+
+  .all-logo {
+    width: 40%;
+  }
+
+  .logo-names {
+    font-size: 15pt;
+  }
+
+  .skills-header{
+    font-size: 30pt;
+    margin-top: 130%;
+  }
+
+  .image {
+    width: 20%;
+  }
+
+  .intro-text {
+    font-size: 22pt;
+  }
+
+  .intro{
+    margin-bottom: 0%;
+  }
+
+  .container {
+    width: 0%;
+    height: 0%;
+  }
+
+  .contact-images-hold{
+    left: 30%;
+    top: 5%;
+    margin-bottom: 0%;
+  }
+
+  .images-contact {
+    width: 13%;
+  }
+
 }
