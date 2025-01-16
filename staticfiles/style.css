@@ -424,7 +424,6 @@ img {
   margin-top: 5%;
   display: block;
   flex-direction: column;
-  color: #EFE9E7;
 }
 
 .email-link {
@@ -501,10 +500,6 @@ img {
   font-size: 15pt;
 }
 
-.words-footer {
-  color: #EFE9E7;
-}
-
 /*Begin shimmer code*/
 
 @keyframes shine {
@@ -578,30 +573,7 @@ img {
   }
 
   .images-contact {
-    width: 17%;
+    width: 13%;
   }
 
-}
-
-@media only screen and (min-width: 2565px) {
-  .contact-images-hold {
-    top: -8%;
-  }
-
-  .box {
-    width: 500px;
-    height: 500px;
-  }
-
-  .intro {
-    margin-left: -11%;
-  }
-
-  .intro-text {
-    font-size: 37px;
-  }
-
-  .work {
-    font-size: 21px;
-  }
 }
