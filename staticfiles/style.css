@@ -577,3 +577,22 @@ img {
   }
 
 }
+
+@media only screen and (min-width: 2565px) {
+  .contact-images-hold {
+    top: -8%;
+  }
+  .box {
+    width: 500px;
+    height: 500px;
+  }
+  .intro {
+    margin-left: -11%;
+  }
+  .intro-text {
+    font-size: 37px;
+  }
+  .work {
+    font-size: 21px;
+  }
+}
