@@ -16,10 +16,8 @@ h1{
 }
 
 .container{
-    margin-top: 2.5%;
     z-index: 5 !important;
     position: relative;
-
     display: flex;
     align-items: center;
     justify-content: center;

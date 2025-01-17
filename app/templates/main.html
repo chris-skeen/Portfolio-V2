@@ -1,60 +1,68 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-<div class="container">
+<div class="main">
+  <div class="container">
 
-    <div class="bird-container bird-container-one">
-      <div class="bird bird-one"></div>
-    </div>
-    <div class="bird-container bird-container-two">
-        <div class="bird bird-two"></div>
-    </div>
-    <div class="bird-container bird-container-three">
-        <div class="bird bird-three"></div>
-    </div>
-    <div class="bird-container bird-container-four">
-        <div class="bird bird-four"></div>
-    </div>
-</div>
-<div class='intro'>
-    <img class="image" src="{% static "images/Pied-Northern-Cardinal-Transparent-PNG.png" %}"/>
-    <div class="intro-text-block">
-        <div class="intro-text">
-            Hey, I'm
-            <strong class="emphasis-text">Robbin</strong>
-            !
+      <div class="bird-container bird-container-one">
+        <div class="bird bird-one"></div>
+      </div>
+      <div class="bird-container bird-container-two">
+          <div class="bird bird-two"></div>
+      </div>
+      <div class="bird-container bird-container-three">
+          <div class="bird bird-three"></div>
+      </div>
+      <div class="bird-container bird-container-four">
+          <div class="bird bird-four"></div>
+      </div>
+  </div>
+  <div class='intro'>
+    <div class="intro-content">
+      <img class="image" src="{% static "images/Pied-Northern-Cardinal-Transparent-PNG.png" %}"/>
+      <div class="intro-text-block">
+          <div class="intro-text">
+              Hey, I'm
+              <strong class="emphasis-text">Robbin</strong>
+              !
+          </div>
+          <div class="intro-text">
+              I'm a
+              <strong class="emphasis-text">software developer</strong>
+              with experience in 
+              <strong class="emphasis-text">full-stack</strong>
+              development.
+          </div>
+          <div class="work">
+              Currently enrolled at 
+            <strong class="emphasis-text">Base Camp Coding Academy</strong>
+            .
+          </div>
         </div>
-        <div class="intro-text">
-            I'm a
-            <strong class="emphasis-text">software developer</strong>
-            with experience in 
-            <strong class="emphasis-text">full-stack</strong>
-            development.
-        </div>
-        <div class="work">
-            Currently enrolled at 
-           <strong class="emphasis-text">Base Camp Coding Academy</strong>
-           .
-        </div>
+      </div>
+    <div class="box">
+      <div class="content">
+        <img src={% static "images/robbin.jpg" %}>
+        <h2>Robbin Skeen<br><span>Software Developer</span></h2>
+        <a target="_blank" href="https://docs.google.com/document/d/1UOLDR5EGYbsY3DxOKDIj6HPBxSXiasLUV2ppahXFXOc/edit?tab=t.0">Resume</a>
+      </div>
     </div>
-</div>
+    </div>
 
-<div class="center">
-  <div class="down"></div>
-</div>
 
-<div class="box">
-  <div class="content">
-    <img src={% static "images/robbin.jpg" %}>
-    <h2>Robbin Skeen<br><span>Software Developer</span></h2>
-    <a target="_blank" href="https://docs.google.com/document/d/1UOLDR5EGYbsY3DxOKDIj6HPBxSXiasLUV2ppahXFXOc/edit?tab=t.0">Resume</a>
+
+  <div class="contact-images-hold">
+    <a target="_blank" href="https://github.com/chris-skeen"><img class="images-contact" src={% static "images/github.png" %}></a>
+    <a target="_blank" href="https://www.linkedin.com/in/robbin-skeen-39b94b324/"><img class="images-contact" src={% static "images/linkedin.png" %}></a>
+    <a target="_blank" href=""><img class="images-contact" src={% static "images/mail.png" %}></a>
+  </div>
+
+  <div class="center">
+    <div class="down"></div>
   </div>
 </div>
-<div class="contact-images-hold">
-  <a target="_blank" href="https://github.com/chris-skeen"><img class="images-contact" src={% static "images/github.png" %}></a>
-  <a target="_blank" href="https://www.linkedin.com/in/robbin-skeen-39b94b324/"><img class="images-contact" src={% static "images/linkedin.png" %}></a>
-  <a target="_blank" href=""><img class="images-contact" src={% static "images/mail.png" %}></a>
-</div>
+
+
 
 
     <h2 class="skills-header">Skills</h2>
