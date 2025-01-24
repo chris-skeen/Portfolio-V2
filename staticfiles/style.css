@@ -414,7 +414,7 @@ img {
 
 .contact-images-hold {
   left: 20vw;
-  margin-top: -8vh;
+  /* margin-top: -8vh; */
   position: absolute;
 }
 
