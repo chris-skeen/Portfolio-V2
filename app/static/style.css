@@ -124,6 +124,7 @@ nav a:nth-child(3):hover ~ #indicator {
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
 .main{
+  margin-top: 5vh;
   width: 100vw;
   height: 95vh;
 }
@@ -505,6 +506,8 @@ img {
   font-size: 15pt;
 }
 
+
+
 /*Begin shimmer code*/
 
 @keyframes shine {
@@ -515,73 +518,9 @@ img {
 
 
 
-/* @media only screen and (max-width: 600px) {
-
-  .wrapper {
-    width: 60%;
-    height: 50%;
-  }
-
-  .box {
-    margin: -180% 0% 0% 10%;
-    width: 300px;
-    height: 300px;
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .center {
-    display: none;
-  }
-
-  .intro {
-    width: 100%;
-    margin-top:80%;
-  }
-
-  .all-logo {
-    width: 40%;
-  }
-
-  .logo-names {
-    font-size: 15pt;
-  }
-
-  .skills-header{
-    font-size: 30pt;
-    margin-top: 130%;
-  }
-
-  .image {
-    width: 20%;
-  }
-
-  .intro-text {
-    font-size: 22pt;
-  }
-
-  .intro{
-    margin-bottom: 0%;
-  }
-
-  .container {
-    width: 0%;
-    height: 0%;
-  }
-
-  .contact-images-hold{
-    left: 30%;
-    top: 5%;
-    margin-bottom: 0%;
-  }
-
-  .images-contact {
-    width: 13%;
-  }
-
-} */
+@media only screen and (max-width: 600px) {
+  
+}
 
 /* @media only screen and (min-width: 768px) {
   .contact-images-hold {
@@ -589,7 +528,7 @@ img {
   }
   .box {
     width: 500px;
-    height: 500px;
+    height: 500px;2
   }
 
   .intro-text {
