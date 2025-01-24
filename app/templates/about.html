@@ -1,38 +1,45 @@
-{% extends "base.html" %}
-{% load static %}
-{% block content %}
-<div class="container">
-
+{% extends "base.html" %} {% load static %} {% block content %}
+<div class="main">
+  <div class="container">
     <div class="bird-container bird-container-one">
-        <div class="bird bird-one"></div>
+      <div class="bird bird-one"></div>
     </div>
     <div class="bird-container bird-container-two">
-        <div class="bird bird-two"></div>
+      <div class="bird bird-two"></div>
     </div>
     <div class="bird-container bird-container-three">
-        <div class="bird bird-three"></div>
+      <div class="bird bird-three"></div>
     </div>
     <div class="bird-container bird-container-four">
-        <div class="bird bird-four"></div>
+      <div class="bird bird-four"></div>
     </div>
-</div>
-
-<h1 class="more-ab-me">More About Me</h1>
-
-<div class="wrapper">
-    <div class="border"></div>
-        <img class="main-element" src={% static "images/robbin3.jpg" %}>
   </div>
 
-<p class="summary-of-me">
-    I am a software developer from Hernando Mississippi with aspirations to learn more about cyber security!
-     <br> Though my main skills right now involve website development with key interests in back end work. 
-     <br> Outside of coding my main hobbies are gaming, hiking/exploring and listening to music.
-</p>
+  <h1 class="more-ab-me">More About Me</h1>
 
-  
+  <div class="wrapper">
+    <div class="border"></div>
+    <img class="main-element" src={% static "images/robbin3.jpg" %}>
+  </div>
+
+  <p class="summary-of-me">
+    I am a software developer from Hernando Mississippi with aspirations to
+    learn more about cyber security!
+    <br />
+    Though my main skills right now involve website development with key
+    interests in back end work. <br />
+    Outside of coding my main hobbies are gaming, hiking/exploring and listening
+    to music.
+  </p>
+</div>
 
 <footer class="footer">
-    <p>&copy; 2025 Robbin Christopher Skeen. All rights reserved. | Contact:<a class="email-link" href="mailto:chrisskeen2006@gmail.com">662-719-7309</a></p>
+  <p>
+    &copy; 2025 Robbin Christopher Skeen. All rights reserved. | Contact:<a
+      class="email-link"
+      href="mailto:chrisskeen2006@gmail.com"
+      >662-719-7309</a
+    >
+  </p>
 </footer>
 {% endblock content %}
