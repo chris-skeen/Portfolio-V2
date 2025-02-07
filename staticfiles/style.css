@@ -561,4 +561,25 @@ img {
     overflow-x: hidden;
     max-width: 100%
   }
+
+  .center {
+    display: none;
+  }
+
+  .skills-header {
+    margin-top: 150%;
+  }
+
+  .box {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .logo-names {
+    font-size: 11pt;
+  }
+
+  .all-logo {
+    width: 50%;
+  }
 }

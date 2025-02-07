@@ -154,7 +154,7 @@ img {
   border: 0;
 }
 
-.image {
+.birdimage {
   width: 10%;
   margin: 0% 0% 0% 20%;
   float: left;
@@ -560,5 +560,26 @@ img {
   body {
     overflow-x: hidden;
     max-width: 100%
+  }
+
+  .center {
+    display: none;
+  }
+
+  .skills-header {
+    margin-top: 150%;
+  }
+
+  .box {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .logo-names {
+    font-size: 11pt;
+  }
+
+  .all-logo {
+    width: 50%;
   }
 }
